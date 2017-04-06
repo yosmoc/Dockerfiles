@@ -7,6 +7,7 @@ RUN pip3 install --upgrade pip \
   seaborn \
   plotly \
   scipy \
-  bokeh
-
+  bokeh \
+  xlrd
+  
 CMD ["jupyter", "notebook", "--no-browser"]
